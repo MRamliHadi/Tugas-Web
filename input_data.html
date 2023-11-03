@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Quis Pemrogaman Web</title></head>
+    <body>
+        <h2>Quis Pemrogaman Web</h2>
+        <P>
+            <a href="index.html">Home</a>
+            <a href="List_Data.html">List Jurusan</a>
+            <a href="input_data.html">Input Data</a>
+            <a href="tabel_data.html">Tabel Data</a>
+            <a href="ABOUT.html">Data Diri</a>
+        </P>
+
+        <h3>Rental Motor</h3>
+        <form action="proses.php" method="post"></form>
+            <table width="400">
+                <tr>
+                    <td>No Identitas</td>
+                    <td><input type="text" name="KTP" placeholder="SIM/KTP"></td>
+                </tr>
+                <tr>
+                    <td>Nama</td>
+                    <td><input type="text" name="NAMA" placeholder="your name"></td>
+                </tr>
+                <tr>
+                    <td>No Hp</td>
+                    <td><input type="text" name="no Hp" placeholder="your phone"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="Email" placeholder="your email"></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td><textarea name="Alamat" placeholder="your addres"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Jenis Motor</td>
+                    <td><select name="Jenis Motor">
+                        <OPtion value="Vixion">Vixion</OPtion>
+                        <OPtion value="MIO">MIO</OPtion>
+                        <OPtion value="NMAX">NMAX</OPtion>
+                        <OPtion value="Supra X 125">Supra X 125</OPtion>
+                        <OPtion value="BEAT">BEAT</OPtion>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Tipe Layanan</td>
+                    <td>
+                        <input type="radio" value="Lepas Kunci" name="Tipe Layanan"> Lepas Kunci
+                        <input type="radio" value="Dengan Sopir" name="Dengan Sopir"> Dengan Sopir
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tanggal Sewa</td>
+                    <td><input type="date" name="tglsewa"> s/d <input type="date" name="tglsewa"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="submit" value="submit"></td>
+                    <td><input type="submit" name="submit" value="Batal"></td>
+                </tr>
+                </table>
+    </body>
+</html>
